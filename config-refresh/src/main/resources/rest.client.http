@@ -1,3 +1,16 @@
 ### get config
-http://localhost:8080/demo
+GET http://localhost:8080/demo
 Accept: application/json
+
+### actuator/health
+GET http://localhost:8080/actuator/health
+
+### actuator/env
+GET http://localhost:8080/actuator/env
+
+### actuator
+GET http://localhost:8080/actuator
+
+### actuator/refresh
+POST http://localhost:8080/actuator/refresh
+Content-Type: application/json

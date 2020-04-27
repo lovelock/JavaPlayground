@@ -1,7 +1,10 @@
 package fun.happyhacker.java.basics.inherit.abstractclass;
 
+import lombok.ToString;
+
 import java.time.LocalDate;
 
+@ToString
 public class Employee extends Person {
     public double getSalary() {
         return salary;

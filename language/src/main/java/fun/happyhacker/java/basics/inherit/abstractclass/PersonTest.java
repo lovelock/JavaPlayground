@@ -12,5 +12,7 @@ public class PersonTest {
         for (Person person : people) {
             System.out.println("description: " + person.getDescription());
         }
+
+        System.out.println(employee.toString());
     }
 }
